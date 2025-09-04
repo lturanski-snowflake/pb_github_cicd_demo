@@ -1,0 +1,3 @@
+CREATE OR REPLACE STREAM demo_stream ON TABLE demo_customers
+    APPEND_ONLY = FALSE
+    SHOW_INITIAL_ROWS = TRUE;
